@@ -164,20 +164,19 @@
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me</span></h2>
         <form action="https://formspree.io/f/mnjrvjyl"
-            method="POST"
-            enctype="multipart/form-data">
+            method="POST">
             <div class="input-group">
                 <div class="input-box">
-                    <input type="text" placeholder="Full Name">
-                    <input type="text" placeholder="E-Mail">
+                    <input type="text" name="name" placeholder="Full Name">
+                    <input type="text" name="email" placeholder="E-Mail">
                 </div>
                 <div class="input-box">
-                    <input type="number" placeholder="Phone">
-                    <input type="text" placeholder="Subject">
+                    <input type="number" name="number" placeholder="Phone">
+                    <input type="text" name="subject" placeholder="Subject">
                 </div>
             </div>
             <div class="input-group-2">
-                <textarea name="" id="" cols="30" rows="10", placeholder="Your Message..."></textarea>
+                <textarea name="message" id="" cols="30" rows="10", placeholder="Your Message..."></textarea>
                 <input type="submit" value="Send Message" class="btn">
             </div>
         </form>
