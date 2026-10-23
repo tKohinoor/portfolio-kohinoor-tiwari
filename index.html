@@ -28,7 +28,7 @@
         and problem-solving. Build. Break. Learn. Repeat.</p>
       <div class="cta">
         <a class="btn primary" href="#work">View work</a>
-        <button class="btn cv" type="button">Download CV ↓</button>
+        <a class="btn cv" href="assets/resume.pdf" download="Kohinoor_Tiwari_CV.pdf">Download CV ↓</a>
         <a class="btn" href="https://github.com/tKohinoor" target="_blank" rel="noopener">GitHub</a>
         <a class="btn" href="mailto:kohinoortiwari2006@gmail.com">Get in touch</a>
       </div>
@@ -39,7 +39,8 @@
       <div class="about-wrap">
         <figure class="photo">
           <div class="frame">
-            <img id="photo" alt="Portrait of Kohinoor Tiwari" hidden>
+            <img id="photo" src="assets/photo.jpg" alt="Portrait of Kohinoor Tiwari"
+              onload="document.getElementById('ph').style.display='none'" onerror="this.style.display='none'">
             <div class="ph mono" id="ph"><b>tK</b><span>your photo here</span></div>
           </div>
           <div class="chip mono"><i></i>B.Tech CSE · 2027</div>
@@ -62,28 +63,14 @@
           <h3>Agile Project Management &amp; Collaboration System</h3>
           <p>A web-based tool for sprint planning, task assignment, Kanban boards and progress tracking, with a
             responsive React interface and REST APIs supporting project workflows and collaboration.</p>
-          <span class="go">View Repository</span>
+          <span class="go">View repository</span>
         </a>
-        <a class="card" href="https://github.com/tKohinoor/akshar" target="_blank" rel="noopener">
-          <span class="tag mono">ANDROID DEVELOPMENT · REACT</span>
-          <h3>Akshar</h3>
-          <p>An android-based project focused on delivering an accessible and intuitive user experience through a clean,
-            user-friendly interface.</p>
-          <span class="go">View Repository</span>
-        </a>
-        <a class="card" href="https://github.com/tKohinoor/url-shortener" target="_blank" rel="noopener">
-          <span class="tag mono">PYTHON · REST API</span>
-          <h3>URL Shortener</h3>
-          <p>A RESTful URL shortening service built with Python, exploring API development, HTTP requests, and efficient
-            URL redirection.</p>
-          <span class="go">View Repository</span>
-        </a>
-        <a class="card" href="https://tkohinoor.github.io/weather-app/" target="_blank" rel="noopener">
-          <span class="tag mono">PYTHON · REST API · JSON</span>
-          <h3>Weather App</h3>
-          <p>A weather application that fetches real-time weather data through APIs, exploring HTTP requests, JSON
-            responses, and API integration.</p>
-          <span class="go">Live Demo</span>
+        <a class="card" href="https://tkohinoor.github.io/Kollab" target="_blank" rel="noopener">
+          <span class="tag mono">JAVASCRIPT · FIREBASE</span>
+          <h3>Kollab</h3>
+          <p>A team collaboration tool featuring project organization and task management, built during a value-added
+            training course.</p>
+          <span class="go">Live demo</span>
         </a>
         <a class="card" href="https://tkohinoor.github.io/daily-journal/" target="_blank" rel="noopener">
           <span class="tag mono">HTML · CSS · JS</span>
@@ -91,11 +78,17 @@
           <p>A browser-based journal with full CRUD operations. Local Storage keeps entries across sessions.</p>
           <span class="go">Live demo</span>
         </a>
+        <a class="card" href="https://github.com/tKohinoor/distributed-lock-manager" target="_blank" rel="noopener">
+          <span class="tag mono">SYSTEMS</span>
+          <h3>Distributed Lock Manager</h3>
+          <p>A systems-oriented project exploring distributed locking and coordination challenges.</p>
+          <span class="go">View repository</span>
+        </a>
         <a class="card" href="https://github.com/tKohinoor/sales-analytics-pipeline" target="_blank" rel="noopener">
           <span class="tag mono">PYTHON</span>
           <h3>Sales Analytics Pipeline</h3>
           <p>A Python project focused on sales-data processing and analytics workflows.</p>
-          <span class="go">View Repository</span>
+          <span class="go">View repository</span>
         </a>
       </div>
     </section>
@@ -154,8 +147,8 @@
       <h2>Let’s build something.</h2>
       <p>Open to internships and collaborations in software engineering and web development.</p>
       <a class="btn primary" href="mailto:kohinoortiwari2006@gmail.com">kohinoortiwari2006@gmail.com</a>
-      <button class="btn cv" type="button" style="margin-left:8px">Download CV ↓</button>
-      <div id="cvmsg" class="mono"></div>
+      <a class="btn cv" href="assets/resume.pdf" download="Kohinoor_Tiwari_CV.pdf" style="margin-left:8px">Download CV
+        ↓</a>
       <div class="socials mono">
         <a href="https://github.com/tKohinoor" target="_blank" rel="noopener">github</a>
         <a href="https://linkedin.com/in/kohinoortiwari" target="_blank" rel="noopener">linkedin</a>
